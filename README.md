@@ -24,3 +24,11 @@ python -m tiny_compressai.utils.eval_model checkpoint path/to/data/directory  -a
 
 ## Jupyter Notebook
 A jupyter notebook ([compression_evaluation.ipynb](compression_evaluation.ipynb)) is also provided to make clear the procedure of model instantation and single image evaluation.
+Use the following command to install Jupyter before running the notebook.
+```bash
+pip install jupyterlab
+```
+
+## Sample Data + Pretrained Network
+- [32 SDO images for test](https://drive.google.com/file/d/1Mhiuy3jOkhikD2QRENaXIynOrgljkukH/view?usp=sharing)
+- [PyTorch Pretrained Model](https://drive.google.com/file/d/1AdEbdvYql747zV-vL8qqwWZADhhHFRwZ/view?usp=sharing)
